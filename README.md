@@ -4,7 +4,7 @@ Design and simulation of a microstrip inset-fed pan-shaped patch antenna using H
 # 🛰️ Pan-Shaped Inset-Fed Microstrip Patch Antenna for 2.4 GHz ISM Band Applications
 
 <p align="center">
-  <img src="Images/Pan_Patch_isometric_view.png" width="600">
+  <img src="Pan_Patch Antenna/Pan_Patch_isometric_view.png" width="600">
 </p>
 
 ## 📖 Overview
