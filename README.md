@@ -34,28 +34,7 @@ These modifications alter the current distribution on the patch, resulting in ex
 ## 🛠 Software Used
 
 - Ansys HFSS 2025 R2 Student Version
-
----
-
-# 📐 Antenna Geometry
-
-## Top View
-
-<p align="center">
-  <img src="Images/Top_view.png" width="450">
-</p>
-
-### Key Features
-
-- Inset-fed microstrip patch
-- Circular slot loading
-- Modified pan-shaped contour
-- Ground plane backed substrate
-
-The circular slot increases the effective current path length while providing additional reactive loading, enabling resonance tuning and improved impedance matching.
-
----
-
+  
 # 📊 Simulation Results
 
 ## Return Loss (S11)
@@ -63,7 +42,7 @@ The circular slot increases the effective current path length while providing ad
 The antenna resonates at approximately **2.424 GHz** with a return loss of **-24.03 dB**.
 
 <p align="center">
-  <img src="Images/S11.png" width="700">
+  <img src="Pan_Patch Antenna/S11.png" width="700">
 </p>
 
 | Parameter | Value |
@@ -78,7 +57,7 @@ The antenna resonates at approximately **2.424 GHz** with a return loss of **-24
 The antenna achieves a minimum VSWR of approximately **1.21**, indicating efficient power transfer.
 
 <p align="center">
-  <img src="Images/VSWR.png" width="700">
+  <img src="Pan_Patch Antenna/VSWR.png" width="700">
 </p>
 
 | Parameter | Value |
@@ -87,26 +66,12 @@ The antenna achieves a minimum VSWR of approximately **1.21**, indicating effici
 
 ---
 
-## Gain vs Frequency
-
-The antenna exhibits a maximum gain of approximately **3.12 dBi** around the operating frequency.
-
-<p align="center">
-  <img src="Images/gain_vs_frequency.png" width="700">
-</p>
-
-| Parameter | Value |
-|------------|------------|
-| Maximum Gain | 3.12 dBi |
-
----
-
 ## 3D Radiation Pattern
 
 The antenna radiates primarily in the broadside direction.
 
 <p align="center">
-  <img src="Images/3D_Gain.png" width="550">
+  <img src="Pan_Patch Antenna/3D_Gain.png" width="550">
 </p>
 
 ### Characteristics
@@ -121,7 +86,7 @@ The antenna radiates primarily in the broadside direction.
 ## Polar Radiation Pattern
 
 <p align="center">
-  <img src="Images/Radiation_Pattern.png" width="550">
+  <img src="Pan_Patch Antenna/Radiation Pattern.png" width="550">
 </p>
 
 The E-plane and H-plane patterns show good directional behavior with a dominant main lobe.
@@ -174,64 +139,10 @@ This antenna is suitable for:
 - Embedded Communication Devices
 - Academic Antenna Research
 
----
 
-# 🔬 Future Improvements
-
-Potential enhancements include:
-
-- Bandwidth improvement
-- Defected Ground Structures (DGS)
-- Metamaterial loading
-- Circular polarization
-- MIMO implementation
-- Gain enhancement techniques
-
----
-
-# 📁 Repository Structure
-
-```text
-Pan-Shaped-Patch-Antenna/
-│
-├── HFSS_Project/
-│   └── PanPatch.aedt
-│
-├── Images/
-│   ├── Top_view.png
-│   ├── Pan_Patch_isometric_view.png
-│   ├── S11.png
-│   ├── VSWR.png
-│   ├── gain_vs_frequency.png
-│   ├── 3D_Gain.png
-│   └── Radiation_Pattern.png
-│
-├── Results/
-│   └── Simulation_Data
-│
-└── README.md
-```
 
 # 👨‍💻 Author
 
 **Arya**
 
-Electronics and Communication Engineering Student
 
-### Interests
-
-- Antenna Design
-- RF Engineering
-- Electromagnetics
-- HFSS Simulation
-- Wireless Communication
-
----
-
-# 📜 License
-
-This project is released for academic and research purposes.
-
----
-
-## ⭐ If you found this project useful, consider giving it a star.
